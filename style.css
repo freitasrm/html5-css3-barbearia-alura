@@ -221,12 +221,22 @@ td, th {
     line-height: 1.5;
 }
 
+.itens:before {
+    content: "🟊";
+}
+
 .itens:first-child {
     font-weight: bold;
 }
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 
 .video {
